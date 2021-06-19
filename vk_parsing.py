@@ -2,12 +2,12 @@ import requests
 import csv
 
 
-
+dom = input()
 
 def vk():
-    token = '4a325e6e4a325e6e4a325e6ea04a4a167644a324a325e6e2afe1e38cccdc4139983dd73'
+    token = 'ваш токен'
     version = 5.131
-    domain = 'kzngo'
+    domain = dom
     global all_posts
     all_posts = []
     response = requests.get('https://api.vk.com/method/wall.get',
