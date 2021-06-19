@@ -15,7 +15,7 @@ def vk():
                                 'access_token': token,
                                 'v': version,
                                 'domain': domain,
-                                'count': 100
+                                'count': 100 # вы можете изменить колличество постов которые предстоит найти просто изменив значение count
                             }
                             )
 
